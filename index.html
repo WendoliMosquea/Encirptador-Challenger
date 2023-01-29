@@ -10,28 +10,36 @@
     <title>Encriptador</title>
 </head>
 
-<body>
+<body class="cuerpo">
     <header class="encabezado">
         <h1><img src="assets/img/Logo2.png" alt="Logo de Alura"></h1>
     </header>
 
-    <main>
-        <div class="ingreseTexto">
-            <form>
-                <textarea name="ingresarTexto" id="Ingresar texto aqui" cols="30" rows="10"
-                    placeholder="Ingrese el texto aqui"></textarea>
-            </form>
-            <p>ℹ Solo letras minusculas y sin acentos</p>
-            <input type="submit" value="Encriptar" class="encriptar">
-            <input type="submit" value="Desencriptar" class="desencriptar">
-        </div>
-        <div class="mostradorTexto">
-            <textarea name="mostradorTexto" id="" cols="30" rows="10"></textarea>
-            <img src="assets/img/Muñeco.png" alt="imagen muñeco">
-            <h2>Ningun mensaje fue encontrado</h2>
-            <input type="submit" value="Copiar" class="copiar">
-        </div>
-        </main>
+    <main class="principal">
+        <section class="ingreseTexto">
+            <div>
+                <form>
+                    <textarea name="ingresarTexto" id="Ingresar texto aqui" cols="30" rows="10"
+                        placeholder="Ingrese el texto aqui"></textarea>
+                </form>
+                <p>ℹ Solo letras minusculas y sin acentos</p>
+            </div>
+            <div>
+                <input type="submit" value="Encriptar" class="encriptar">
+                <input type="submit" value="Desencriptar" class="desencriptar">
+            </div>
+        </section>
+        <section class="mostradorTexto">
+            <div>
+                <textarea name="mostradorTexto" id="" cols="30" rows="10"></textarea>
+                <img src="assets/img/Muñeco.png" alt="imagen muñeco">
+                <h2>Ningun mensaje fue encontrado</h2>
+            </div>
+            <div>
+                <input type="submit" value="Copiar" class="copiar">
+            </div>
+        </section>
+    </main>
     <footer>
         <p>CopyRight</p>
     </footer>

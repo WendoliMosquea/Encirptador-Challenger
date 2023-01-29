@@ -1,0 +1,26 @@
+/* variables de colores */
+:root {
+    --colorPrincipal: #e5e5e5;
+    --colorSecundario: #609ed4;
+    --colorTerciario: #ffffff;
+    --colorCuatro: #0a3871;
+    --colorCinco: #D8DFE8;
+    --colorSeis: #495057;
+    --colorSiete: #F3F5FC;
+    --colorOcho:#343A40;
+}
+.cuerpo{
+    font-size: 1.2rem;
+    background: var(--colorPrincipal);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    position: fixed;
+    justify-content: space-between;
+}  
+.encabezado {
+    width: 100%;
+    position: relative;
+    left: 40px;
+    top: 40px;
+}
